@@ -1,0 +1,111 @@
+1-  map1() isminde bir method oluşturun.
+
+Parametresi   bir Integer -String map  ve bir int
+
+return tipi String
+
+Tamsayı değerlerini (int) döndürün.
+
+ÖRNEK:
+
+Map:
+
+                1 ,  "Lion"
+
+                2 ,  "Tiger"
+
+                **3 ,  "Elephant"**
+
+                4 ,  "Cat"
+
+                5  , "Dog"
+
+**Integer 3**
+
+Cevap **Elephant** olmalı.
+
+
+2- returnKey() isminde bir method oluşturun.
+
+Parametresi     String-Integer HashMap olsun.
+
+Return tipi Array List olsun.
+
+Hashmap:
+
+
+"Lion",     1
+
+"Tiger",    2
+
+"Elephant", 3
+
+"Cat",      4
+
+"Dog",      5
+
+
+Tüm **ANAHTARLARI(Keys)** for döngüsü ile döndürün.
+
+3-
+ismi **returnValue()** olan bir method oluşturun.
+
+Parametresi    **String-Integer HashMap**
+
+Return tipi ArrayList
+
+Bir Hashmap oluşturun ve değerleri Integer ve String'lerden oluşmalı.
+
+  Map
+
+"Lion",         1
+
+"Tiger",        2
+
+"Elephant",  3
+
+"Cat",          4
+
+"Dog",         5
+
+Tüm **_DEĞERLERİ_** (values) **for döngüsü** ile döndürün.
+
+4-
+smi update() olan bir method oluşturun.
+
+
+
+Parametreleri , Integer -String HashMap,  int ve String olmalı. (3ayrı parametre)
+
+return tipi  Integer - String HashMap
+
+Eğer HashMap, int olan parametreyi içeriyorsa,
+
+int değerinde var olan String'i güncelleyin.
+
+**Örnek :**
+
+ Hash map:
+
+1, "New jersey"
+
+2, "New York"
+
+**3, "London"**
+
+4, "Paris"
+
+i**nt = 3**
+
+**String = Miami**
+
+**cevap aşağıdaki gibi olmalı:**
+
+1, "New jersey"
+
+2, "New York"
+
+**3, "Miami"**
+
+4, "Paris"
+
