@@ -35,8 +35,8 @@ public class Answer_01 extends BaseDriver {
         MyFunc.Bekle(3);
 
 
-        Assert.assertTrue("Full name eslesmiyor", fullName.getText().contains("Automation"));
-        Assert.assertTrue("E-posta eslesmiyor", email.getText().contains("Testing"));
+        Assert.assertTrue("Full name eslesmiyor", fullName.getAttribute("value").contains("Automation"));
+        Assert.assertTrue("E-posta eslesmiyor", email.getAttribute("value").contains("Testing"));
 
         BekleKapat();
     }
