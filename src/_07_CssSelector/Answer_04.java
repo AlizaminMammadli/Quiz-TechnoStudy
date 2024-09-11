@@ -1,0 +1,38 @@
+package _07_CssSelector;
+
+import Utility.BaseDriver;
+import Utility.MyFunc;
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+public class Answer_04 extends BaseDriver {
+
+    @Test
+    public void Ques_04(){
+
+        driver.get("https://testpages.herokuapp.com/styled/index.html");
+        MyFunc.Bekle(2);
+
+        WebElement calculator = driver.findElement(By.cssSelector("#calculatetest"));
+        calculator.click();
+        MyFunc.Bekle(2);
+
+        WebElement number1 = driver.findElement(By.cssSelector("#number1"));
+        number1.sendKeys("5");
+        MyFunc.Bekle(2);
+
+        WebElement number2 = driver.findElement(By.cssSelector("#number2"));
+        number2.sendKeys("10");
+        MyFunc.Bekle(2);
+
+        WebElement calculate = driver.findElement(By.cssSelector("#calculate"));
+        calculate.click();
+        MyFunc.Bekle(2);
+
+        WebElement printEle = driver.findElement(By.cssSelector("body > div > div.centered > div > p"));
+        System.out.println(printEle.getText());
+
+        BekleKapat();
+    }
+}
